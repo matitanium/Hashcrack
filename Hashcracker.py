@@ -33,6 +33,7 @@ def baner():
     sha384 = 5
     sha512 = 6
     +++ Other Hashes Unsuported +++
+    If I succeeded Crack Your Hash Tell You In the last line
     """)
 
 
