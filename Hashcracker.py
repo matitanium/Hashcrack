@@ -83,7 +83,7 @@ if hashtype == 1:
         if End == hash:
             print(Fore.GREEN + "your hash has been cracked... :)) password is : {a}".format(a=i))
             break
-if hashtype == 2:
+elif hashtype == 2:
     for i in file:
         i = i.strip()
         sha_1 = hashlib.sha1()
@@ -93,7 +93,7 @@ if hashtype == 2:
         if End == hash:
             print(Fore.GREEN + "your hash has been cracked... :)) password is : {a}".format(a=i))
             break
-if hashtype == 3:
+elif hashtype == 3:
     for i in file:
         i = i.strip()
         sha_224 = hashlib.sha224()
@@ -103,7 +103,7 @@ if hashtype == 3:
         if End == hash:
             print(Fore.GREEN + "your hash has been cracked... :)) password is : {a}".format(a=i))
             break
-if hashtype == 4:
+elif hashtype == 4:
     for i in file:
         i = i.strip()
         sha_256 = hashlib.sha256()
@@ -113,7 +113,7 @@ if hashtype == 4:
         if End == hash:
             print(Fore.GREEN + "your hash has been cracked... :)) password is : {a}".format(a=i))
             break
-if hashtype == 5:
+elif hashtype == 5:
     for i in file:
         i = i.strip()
         sha_384 = hashlib.sha384()
@@ -123,7 +123,7 @@ if hashtype == 5:
         if End == hash:
             print(Fore.GREEN + "your hash has been cracked... :)) password is : {a}".format(a=i))
             break
-if hashtype == 6:
+elif hashtype == 6:
     for i in file:
         i = i.strip()
         sha_512 = hashlib.sha512()
